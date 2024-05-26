@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Management Tool</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="centered-div">
+        <h1>Admin Login</h1>
+        <form>
+            <label for="name">UserName:</label>
+            <input type="text" id="name" placeholder="abc@gmail.com">
+
+            <br>
+            <br>
+            <br>
+            <label for="password">Password:</label>
+            
+            <input type="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+           <br>
+           <br>
+           <br>
+            <input type="button" style="text-align: center;" value="Submit" onclick="validate()">
+        </form>
+    </div>
+</body>
+</html>
